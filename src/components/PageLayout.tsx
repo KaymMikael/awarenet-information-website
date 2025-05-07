@@ -5,7 +5,7 @@ interface PageLayoutProps {
 }
 
 const PageLayout = ({ children }: PageLayoutProps) => {
-  return <div className="max-w-5xl mx-auto px-3">{children}</div>;
+  return <div className="max-w-5xl mx-auto px-4">{children}</div>;
 };
 
 export default PageLayout;
