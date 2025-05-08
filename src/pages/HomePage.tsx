@@ -1,5 +1,6 @@
 import PageHeader from "@/components/PageHeader";
 import PageLayout from "@/components/PageLayout";
+import SectionLayout from "@/components/SectionLayout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useNavigate } from "react-router";
@@ -10,7 +11,7 @@ const HomePage = () => {
     <PageLayout>
       <PageHeader />
       {/* hero section */}
-      <div className="py-5 grid gap-4">
+      <SectionLayout>
         <div className="grid gap-4">
           <div className="grid gap-1">
             <h1 className="font-bold text-4xl lg:max-w-96">
@@ -20,7 +21,11 @@ const HomePage = () => {
               Isang mundo ng koneksyon. Isang tanong: Kumusta ka talaga?
             </p>
           </div>
-          <Button size={"lg"} className="cursor-pointer max-w-56" onClick={() => navigate('/feedback')}>
+          <Button
+            size={"lg"}
+            className="cursor-pointer max-w-56"
+            onClick={() => navigate("/feedback")}
+          >
             Ibahagi ang Nararamdaman
           </Button>
         </div>
@@ -64,8 +69,8 @@ const HomePage = () => {
             </Card>
           </div>
         </div>
-      </div>
-      <div className="py-5 grid gap-4">
+      </SectionLayout>
+      <SectionLayout>
         <div className="grid gap-1">
           <h2 className="text-2xl font-bold">Panimula</h2>
           <p className="border-l-4 pl-4 border-[#00Bfff]">
@@ -132,7 +137,7 @@ const HomePage = () => {
             <li>Maiwasan ang mga nakakasamang parte ng social media.</li>
           </ul>
         </div>
-      </div>
+      </SectionLayout>
     </PageLayout>
   );
 };
