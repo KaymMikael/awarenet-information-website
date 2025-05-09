@@ -12,7 +12,7 @@ const HomePage = () => {
       <PageHeader />
       {/* hero section */}
       <SectionLayout>
-        <div className="grid gap-4">
+        <div className="grid gap-8">
           <div className="grid gap-1">
             <h1 className="font-bold text-4xl lg:max-w-96">
               Ang Epekto ng Social Media sa Kalusugang Pangkaisipan
