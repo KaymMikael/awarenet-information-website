@@ -6,7 +6,19 @@ const SurveyPage = () => {
   return (
     <PageLayout>
       <PageHeader />
-      <SectionLayout>Survery Here</SectionLayout>
+      <SectionLayout>
+        <div>
+          <h2>1.1 Oras ng Paggamit</h2>
+          <div>
+            <div>
+              <p>
+                Karaniwan akong gumagamit ng social media ng higit sa tatlong
+                (3) oras kada araw.
+              </p>
+            </div>
+          </div>
+        </div>
+      </SectionLayout>
     </PageLayout>
   );
 };
