@@ -50,10 +50,10 @@ const FeedbackPage = () => {
               </em>
             </div>
           </div>
-          <div className="space-y-4">
+          <div className="grid gap-4">
             <Textarea
               placeholder="Halimbawa: Mas napapansin kong naapektuhan ang aking self-esteem sa tuwing nagba-browse ako sa social media..."
-              className="h-full w-full"
+              className="h-ful w-full min-h-48"
               value={value}
               onChange={(e) => setValue(e.target.value)}
             />
