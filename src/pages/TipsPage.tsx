@@ -1,7 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import PageLayout from "@/components/PageLayout";
 import SectionLayout from "@/components/SectionLayout";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TipCard from "@/components/TipCard";
 import { tips } from "@/data/tips";
 
 const TipsPage = () => {
@@ -31,14 +31,7 @@ const TipsPage = () => {
         <div className="grid gap-4 sm:grid-cols-2">
           {tips.map((tip) => (
             // Tip card
-            <Card key={tip.title}>
-              <CardHeader>
-                <CardTitle>{tip.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <em>{tip.content}</em>
-              </CardContent>
-            </Card>
+            <TipCard tip={tip} />
           ))}
         </div>
       </SectionLayout>
