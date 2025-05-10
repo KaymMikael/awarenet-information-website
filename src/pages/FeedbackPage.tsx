@@ -14,7 +14,7 @@ const FeedbackPage = () => {
       return;
     }
     toast.success("Submitted");
-    setValue('')
+    setValue("");
   };
 
   return (
@@ -22,26 +22,32 @@ const FeedbackPage = () => {
       <PageHeader />
       <SectionLayout>
         <div className="grid sm:grid-cols-2 gap-4">
-          <div className="grid gap-4">
-            <div>
-              <h2 className="text-2xl font-bold">
+          <div className="grid gap-8">
+            <div className="grid gap-2">
+              <h1 className="text-4xl font-bold">
                 🗣️ Ibahagi ang Iyong Karanasan
-              </h2>
+              </h1>
               <p className="text-slate-500">
                 Your voice matters - even if we don't know your name.
               </p>
             </div>
             <div className="grid gap-2">
-              <h3 className="text-xl font-bold">
-                📌 Paano ka naaapektuhan ng social media sa iyong kalusugang
+              <h2 className="text-2xl font-bold">
+                Paano ka naaapektuhan ng social media sa iyong kalusugang
                 pangkaisipan o sa pagpapahalaga mo sa sarili?
-              </h3>
-              <p className="text-slate-500">
+              </h2>
+              <p>
                 Kung gusto mong maglabas ng saloobin, kwento, o kahit simpleng
                 komento—malaya kang magsulat dito. Walang tama o maling sagot.
                 Lahat ng sasabihin mo ay makakatulong sa mas malawak na
                 pag-unawa.
               </p>
+            </div>
+            <div>
+              <em className="text-sm text-slate-500">
+                Hindi namin kinokolekta ang iyong pangalan o email. Lahat ng
+                sagot ay mananatiling anonymous.
+              </em>
             </div>
           </div>
           <div className="space-y-4">
@@ -51,7 +57,10 @@ const FeedbackPage = () => {
               value={value}
               onChange={(e) => setValue(e.target.value)}
             />
-            <Button className="w-full cursor-pointer" onClick={handleSubmitClick}>
+            <Button
+              className="w-full cursor-pointer"
+              onClick={handleSubmitClick}
+            >
               Submit
             </Button>
           </div>
