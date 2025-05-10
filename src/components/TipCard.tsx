@@ -8,7 +8,7 @@ const TipCard = ({ tip }: TipCardProps) => {
   return (
     <Card key={tip.title}>
       <CardHeader>
-        <CardTitle>{tip.title}</CardTitle>
+        <CardTitle className="text-lg">{tip.title}</CardTitle>
       </CardHeader>
       <CardContent>
         <em>{tip.content}</em>
