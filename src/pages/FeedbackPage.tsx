@@ -31,7 +31,7 @@ const FeedbackPage = () => {
                 Your voice matters - even if we don't know your name.
               </p>
             </div>
-            <div className="grid gap-2">
+            <div className="grid gap-2 leading-8">
               <h2 className="text-2xl font-bold">
                 Paano ka naaapektuhan ng social media sa iyong kalusugang
                 pangkaisipan o sa pagpapahalaga mo sa sarili?
@@ -43,7 +43,7 @@ const FeedbackPage = () => {
                 pag-unawa.
               </p>
             </div>
-            <div>
+            <div className="leading-8">
               <em className="text-sm text-slate-500">
                 Hindi namin kinokolekta ang iyong pangalan o email. Lahat ng
                 sagot ay mananatiling anonymous.

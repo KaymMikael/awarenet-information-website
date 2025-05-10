@@ -35,7 +35,7 @@ const HomePage = () => {
               Sa panahon ng mabilisang likes, endless scrolls, at online
               validation... paano na ang ating sarili?
             </h2>
-            <p>
+            <p className="leading-8">
               Ang website na ito ay nilikha upang tuklasin, talakayin, at
               tugunan ang epekto ng social media sa mental health ng mga
               mag-aaral. Mula sa mga datos ng pananaliksik, tips para sa mas
@@ -71,7 +71,7 @@ const HomePage = () => {
         </div>
       </SectionLayout>
       <SectionLayout>
-        <div className="grid gap-1">
+        <div className="grid gap-1 leading-8">
           <h2 className="text-2xl font-bold">Panimula</h2>
           <p className="border-l-4 pl-4 border-[#00Bfff]">
             Ang teknolohiya ay patuloy na umuusbong at palaging ginagamit ng mga
@@ -85,7 +85,7 @@ const HomePage = () => {
             media sa kalusugang pangkaisipan at pagpapahalaga sa sarili.
           </p>
         </div>
-        <div className="grid gap-1">
+        <div className="grid gap-1 leading-8">
           <h2 className="text-2xl font-bold">Kahalagahan Nito</h2>
           <p className="border-l-4 pl-4 border-[#00Bfff]">
             Malalaman dito kung sino ang mga nakakakuha ng benepisyo sa layunin
@@ -115,7 +115,7 @@ const HomePage = () => {
             </li>
           </ul>
         </div>
-        <div className="grid gap-1">
+        <div className="grid gap-1 leading-8">
           <h2 className="text-2xl font-bold">Layunin</h2>
           <ul className="list-disc pl-4 grid gap-2">
             <li>
