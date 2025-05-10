@@ -4,6 +4,7 @@ import SurveyPage from "./pages/SurveyPage";
 import { Toaster } from "@/components/ui/sonner";
 import FeedbackPage from "./pages/FeedbackPage";
 import TipsPage from "./pages/TipsPage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/survey" element={<SurveyPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/tips" element={<TipsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Toaster />
     </>
