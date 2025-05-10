@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import SurveyPage from "./pages/SurveyPage";
 import { Toaster } from "@/components/ui/sonner";
 import FeedbackPage from "./pages/FeedbackPage";
+import TipsPage from "./pages/TipsPage";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/survey" element={<SurveyPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />
+        <Route path="/tips" element={<TipsPage />} />
       </Routes>
       <Toaster />
     </>
