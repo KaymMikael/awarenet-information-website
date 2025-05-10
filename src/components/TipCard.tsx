@@ -6,7 +6,7 @@ interface TipCardProps {
 
 const TipCard = ({ tip }: TipCardProps) => {
   return (
-    <Card key={tip.title}>
+    <Card key={tip.title} className="bg-cyan-100">
       <CardHeader>
         <CardTitle className="text-lg">{tip.title}</CardTitle>
       </CardHeader>
