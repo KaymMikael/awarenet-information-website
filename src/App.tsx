@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 import FeedbackPage from "./pages/FeedbackPage";
 import TipsPage from "./pages/TipsPage";
 import ContactPage from "./pages/ContactPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/tips" element={<TipsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Toaster />
     </>
