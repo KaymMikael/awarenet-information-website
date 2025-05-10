@@ -117,7 +117,7 @@ const HomePage = () => {
         </div>
         <div className="grid gap-1 leading-8">
           <h2 className="text-2xl font-bold">Layunin</h2>
-          <ul className="list-disc pl-4 grid gap-2">
+          <ul className="list-disc pl-8 grid gap-2">
             <li>
               Bigyan ng kaalaman ang mga tao ukol sa nadudulot ng social media
               sa kalusugang pangkaisipan at pagpapahalaga sa sarili.
@@ -136,6 +136,53 @@ const HomePage = () => {
             <li>Mapabuti ang kalusugang pangkaisipan.</li>
             <li>Maiwasan ang mga nakakasamang parte ng social media.</li>
           </ul>
+        </div>
+        <div className="grid gap-4">
+          <h2 className="text-2xl font-bold">
+            Buod ng Natuklasan at mga Rekomendasyon
+          </h2>
+          <p className="leading-8 border-l-4 pl-4 border-[#00Bfff]">
+            Batay sa resulta ng pananaliksik, mataas ang antas ng paggamit ng
+            social media ng mga mag-aaral ng Batangas State University Lipa
+            Campus. Karamihan ay gumagamit nito araw-araw para sa{" "}
+            <strong>libangan</strong>,<strong> impormasyon</strong>,
+            <strong> at pakikipagkomunikasyon</strong>, ayon sa kanilang mga
+            sagot sa “oras ng paggamit,” “madalas na paggamit,” at “layunin ng
+            paggamit,” na may mean scores mula 3.07 hanggang 3.45.
+          </p>
+          <div className="grid gap-2 leading-8">
+            <p className="border-l-4 pl-4 border-[#00Bfff]">
+              Sa aspeto ng <strong> kalusugang pangkaisipan</strong>, lumabas na
+              may negatibong epekto gaya ng <strong> stress</strong>,
+              <strong> pagkaadik</strong>, <strong> pagkabalisa</strong>,
+              <strong> at pagbaba ng self-esteem</strong>, ngunit may indikasyon
+              din ng positibong mekanismo ng pagharap ng mga estudyante. Ayon sa
+              Pearson’s r analysis:
+            </p>
+            <ul className="list-disc pl-8 space-y-2">
+              <li>
+                May <strong>malakas na ugnayan</strong> sa pagitan ng tagal ng
+                paggamit at epekto sa mental health (r = 0.68)
+              </li>
+              <li>
+                <strong>Katamtamang ugnayan</strong> sa pakikisalamuha (r =
+                0.55)
+              </li>
+              <li>
+                <strong>Mahinang ugnayan</strong> sa uri ng paggamit (active o
+                passive) (r = 0.31)
+              </li>
+            </ul>
+          </div>
+          <p className="border-l-4 pl-4 border-[#00Bfff]">
+            Dahil dito, inirerekomenda ang pagsasagawa ng{" "}
+            <strong>
+              seminar, support programs, at integrasyon ng media literacy sa
+              kurikulum
+            </strong>{" "}
+            upang matugunan ang epekto ng social media sa mental health ng mga
+            mag-aaral.
+          </p>
         </div>
       </SectionLayout>
     </PageLayout>
