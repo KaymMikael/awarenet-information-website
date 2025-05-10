@@ -28,7 +28,7 @@ const TipsPage = () => {
           </p>
         </div>
         {/* Tips grid */}
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-2 sm:grid-cols-2">
           {tips.map((tip) => (
             // Tip card
             <TipCard tip={tip} key={tip.title}/>
