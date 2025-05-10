@@ -31,7 +31,7 @@ const TipsPage = () => {
         <div className="grid gap-4 sm:grid-cols-2">
           {tips.map((tip) => (
             // Tip card
-            <TipCard tip={tip} />
+            <TipCard tip={tip} key={tip.title}/>
           ))}
         </div>
       </SectionLayout>
