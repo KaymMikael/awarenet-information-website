@@ -26,7 +26,7 @@ const PageHeader = () => {
           <PageLink text="Tips" to="/tips" />
         </li>
         <li>
-          <PageLink text="Contact Us" to="/contact" />
+          <PageLink text="Contact" to="/contact" />
         </li>
       </ul>
     </header>
