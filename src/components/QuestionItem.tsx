@@ -16,19 +16,19 @@ const QuestionItem = ({ q }: QuestionItemProps) => {
             <RadioGroup>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value={`${item}-one`} id={`${item}-one`} />
-                <Label htmlFor={`${item}-one`}>Agree One</Label>
+                <Label htmlFor={`${item}-one`}>Strongly Agree</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value={`${item}-two`} id={`${item}-two`} />
-                <Label htmlFor={`${item}-two`}>Agree Two</Label>
+                <Label htmlFor={`${item}-two`}>Agree</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value={`${item}-three`} id={`${item}-three`} />
-                <Label htmlFor={`${item}-three`}>Disagree Two</Label>
+                <Label htmlFor={`${item}-three`}>Disagree</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value={`${item}-four`} id={`${item}-four`} />
-                <Label htmlFor={`${item}-four`}>Disagree One</Label>
+                <Label htmlFor={`${item}-four`}>Strongly Disagree</Label>
               </div>
             </RadioGroup>
           </div>
